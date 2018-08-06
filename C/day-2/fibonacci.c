@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main()
+{
+   int f1=0, f2=1, fib, cnt=2, lmt;
+
+   printf("Please enter the limit of the Fibonacci series :");
+   scanf("%d",&lmt);
+   printf("\nFibonacci series is: \n%d \n%d \n",f1,f2);
+
+   while (cnt < lmt)
+   {
+      fib=f1+f2;
+      cnt++;
+      printf("%d\n",fib);
+      f1=f2;
+      f2=fib;
+   }
+   return 0;
+}
