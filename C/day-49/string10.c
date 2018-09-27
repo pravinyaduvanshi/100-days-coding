@@ -19,12 +19,12 @@ void strcopy(char s[],char s2[], int i)
     int j;
      for(j=0;j<i;j++)
     {
-        s2[i]=s[i];
+        s2[j]=s[j];
     }
     s2[i]='\0';
 
     printf("after copy string");
-    printf("\n%s",s);
+    printf("\n%s",s2);
 
 
 }
