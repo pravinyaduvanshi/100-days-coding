@@ -45,7 +45,6 @@ int binarySearch(int a[], int beg, int end, int item)
         {
             return binarySearch(a,beg,mid-1,item);
         }
-
     }
     return -1;
 }
